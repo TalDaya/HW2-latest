@@ -43,6 +43,8 @@ public class AddMessageActivity extends AppCompatActivity {
                 addPhoto.setImageURI(CurrentImage);
             }
         });
+
+        addPhoto = findViewById(R.id.addPhoto);
         addPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
